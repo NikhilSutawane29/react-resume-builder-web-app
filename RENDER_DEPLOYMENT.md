@@ -5,12 +5,14 @@
 Your project has been successfully pushed to GitHub with proper `.gitignore` files:
 
 **Excluded from repo (not uploaded):**
+
 - `node_modules/` - Dependencies
-- `.env` - Sensitive variables  
+- `.env` - Sensitive variables
 - `uploads/` - User-generated files
 - `package-lock.json` - Lock files
 
 **Included in repo:**
+
 - All source code
 - Configuration files
 - `.env.example` files (for reference)
@@ -110,13 +112,13 @@ Your project has been successfully pushed to GitHub with proper `.gitignore` fil
 
 ## 🆘 Troubleshooting
 
-| Problem | Solution |
-|---------|----------|
-| Backend won't start | Check MongoDB URI in env vars |
-| "Cannot connect to DB" | Verify MongoDB connection string & IP whitelist |
-| Frontend shows blank page | Check browser console, verify API URL |
-| Deployment stuck | Check build logs in Render dashboard |
-| Images not uploading | Check upload folder permissions & middleware |
+| Problem                   | Solution                                        |
+| ------------------------- | ----------------------------------------------- |
+| Backend won't start       | Check MongoDB URI in env vars                   |
+| "Cannot connect to DB"    | Verify MongoDB connection string & IP whitelist |
+| Frontend shows blank page | Check browser console, verify API URL           |
+| Deployment stuck          | Check build logs in Render dashboard            |
+| Images not uploading      | Check upload folder permissions & middleware    |
 
 ---
 
